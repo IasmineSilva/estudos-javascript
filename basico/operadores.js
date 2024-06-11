@@ -6,6 +6,9 @@ let speed = driver > 110 ? 'Acima' : 'Abaixo'
 let temIdadeMinima = true
 let temTituloEleitor = true
 let podeVotar = temIdadeMinima && temTituloEleitor
+let corCliente = 'Branco'
+let corEstoque = 'Preto'
+let corVendida = corCliente || corEstoque
 console.log(num1 + num2)
 console.log(total)
 

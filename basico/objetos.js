@@ -10,7 +10,7 @@ let pen = {
     itemAvailable: true,
     itemColor: 'Red'
 }
-pen.itemColor = 'blue'
+pen.itemColor = ''
 
 console.log(pen)
 
