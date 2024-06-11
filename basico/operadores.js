@@ -3,7 +3,9 @@ let num2 = 2
 let num3 = 3
 let driver = 90
 let speed = driver > 110 ? 'Acima' : 'Abaixo'
-
+let temIdadeMinima = true
+let temTituloEleitor = true
+let podeVotar = temIdadeMinima && temTituloEleitor
 console.log(num1 + num2)
 console.log(total)
 
@@ -12,6 +14,7 @@ console.log(num1 >=3)
 
 console.log(num1 === 3)
 console.log(speed)
+console.log(podeVotar)
 
 
 
