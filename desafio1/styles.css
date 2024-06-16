@@ -1,0 +1,22 @@
+h1 {
+    color:blue;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    color:brown;
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100px;
+    }
+}
