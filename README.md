@@ -1,1 +1,1 @@
-Repositório para estudos em javascript .
+Repositório para estudos em javascript
